@@ -1,5 +1,11 @@
 {
   "tahun": 2026,
-  "terendah": {"harga": 548, "tarikh": "2026-11-01"},
-  "tertinggi": {"harga": 764, "tarikh": "2026-01-29"}
+  "terendah": {
+    "harga": 548,
+    "tarikh": "2026-11-01"
+  },
+  "tertinggi": {
+    "harga": 764,
+    "tarikh": "2026-01-29"
+  }
 }

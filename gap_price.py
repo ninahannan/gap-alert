@@ -229,7 +229,7 @@ def main():
     sekarang = datetime.now(MYT)
     emas_lama, perak_lama = baca_terakhir()
     harian = perlu_update_harian(sekarang, teks)
-    berubah = not (emas == emas_lama and perak == perak_lama)
+    berubah = emas != emas_lama
 
     if not harian and not berubah:
         print("Harga sama, tak hantar:", emas)
